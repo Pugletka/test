@@ -1,0 +1,117 @@
+{% load static %}
+<link href="{% static 'land/css/land.css' %}" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>АИС</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static "land/css/land.css" %}">
+
+</head>
+
+<body>
+
+	<header>
+		<h2><a href="#">Построим с любовью!</a></h2>
+		<nav>
+			<li><a href="/login/">Войти в систему</a></li> 
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url({% static "land/img/hero.jpg" %});"></div>
+		<h1>ООО "СТРОИТЕЛЬНАЯ КОМПАНИЯ"</h1>
+		<h3></h3>
+		<a href="#" class="btn">Добро пожаловать к нам на сайт!</a>
+	</section>
+
+
+	<section class="our-work">
+		<h3 class="title">НАШИ РАБОТЫ</h3>
+		<p>Квартиры для тех, кто хочет получить максимум комфорта за разумную цену.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url({% static "land/img/coast.jpg" %});"></li>
+			<li class="large" style="background-image: url({% static "land/img/island.jpg" %});"></li>
+			<li class="large" style="background-image: url({% static "land/img/balloon.jpg" %});"></li>
+			<li class="small" style="background-image: url({% static "land/img/mountain.jpg" %});"></li>
+		</div>
+	</section>
+	
+
+	<section class="features">
+		<h3 class="title">Преимущества</h3>
+		<p>Всего за шесть лет с момента основания компания стала одним из крупнейших игроков на рынке недвижимости в России и вторым застройщиком Московского региона. По итогам 2018 года Группа «Самолет» заняла 5 место в топ-10 застройщиков в Московской области по площади недвижимости, введённой в эксплуатацию. В различных стадиях реализации находится 13 масштабных проектов. Портфель проектов составляет более 10 млн м2 (или 1 трлн руб. выручки).</p>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-camera-retro"></i>
+				<h4>Отделка</h4>
+				<p>Сдаем дома с готовой отделкой – заезжайте и живите.</p>
+			</li>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Инфраструктура</h4>
+				<p>Строим детские сады, школы и поликлиники, привлекаем социально важный бизнес.</p>
+			</li>
+			<li>
+				<i class="fa fa-newspaper-o"></i>
+				<h4>Сроки</h4>
+				<p>Строим быстро: 18 месяцев от стадии котлована до выдачи ключей.</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews">
+		<h3 class="title">ЧТО О НАС ГОВОРЯТ</h3>
+
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Blake</p>
+
+		
+	</section>
+
+
+	<section class="contact">
+		<h3 class="title">ПОДПИСАТЬСЯ НА НОВОСТИ</h3>	
+		<p>Если хотите подписаться на наши новости, то оставьте пожалуйста, вашу почту, мы Вам отправим всю необходимую информацию.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Получать новости</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
+		</ul>
+		<p>Made by ALIEVA</p>
+		<p>BMSTU IU5</p>
+		<p>+7(925)123-45-67</p>
+	</footer>
+
+</body>
+
+</html>
